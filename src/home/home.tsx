@@ -11,7 +11,7 @@ export default function Home({updateActivePage}: any) {
         <small>UI/UX learner | Software Engineer</small>
       </div>
       <div className="hero-buttons">
-        <button className='button-primary' onClick={() => updateActivePage( 'projects')}>Projects</button>
+        <button className='button-primary' onClick={() => updateActivePage( 'projects')}>Check my project</button>
       </div>
     </section>
     <footer className="hero-footer">
