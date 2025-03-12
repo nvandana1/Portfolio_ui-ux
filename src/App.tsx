@@ -11,7 +11,7 @@ function App() {
     <>
     <Navbar updateActivePage={updateActivePage} activePage = {activePage}/>
     {
-       activePage == 'about' && <Home/>
+       activePage == 'about' && <Home updateActivePage={updateActivePage}/>
       }
        {
        activePage == 'projects' && <Projects/>
@@ -19,6 +19,7 @@ function App() {
       {
        activePage == 'contact' && <Contact/>
       }
+      
     </>
   )
 }
