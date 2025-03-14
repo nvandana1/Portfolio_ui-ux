@@ -41,12 +41,13 @@ export default function Projects() {
     <section className="projects">
       <h2 className="sr-only">Projects</h2>
       <div className="projects-grid">
-        <div>
-        <iframe src="https://www.behance.net/embed/project/221262887?ilo0=1" style={{
+      <iframe src="https://www.behance.net/embed/project/221262887?ilo0=1" style={{
     borderRadius: '20px',
-  }} height="316" width="404" allowFullScreen  allow="clipboard-write" referrerPolicy="strict-origin-when-cross-origin"></iframe>
-        </div>
-      
+  }} height="316" width="404"  allowFullScreen  allow="clipboard-write" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+  <iframe src="https://www.behance.net/embed/project/221423631?ilo0=1" style={{
+    borderRadius: '20px',
+  }} height="316" width="404"  allow="clipboard-write" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+
       </div>
       {/* <div className="projects-grid">
         {projects.map((project) => (
