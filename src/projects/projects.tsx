@@ -18,7 +18,7 @@ const projects = [
   {
     title: 'Tiny Tale',
     description: 'A mock UI of storytelling app for kids',
-    behanceLink: 'https://www.behance.net/embed/project/123456789?ilo0=1', // replace with actual link
+    behanceLink: 'https://www.behance.net/gallery/221423631/Tiny-tale-A-mock-UI-project-for-story-telling-app', // replace with actual link
     image: image3, // replace with actual image
   },
   {
