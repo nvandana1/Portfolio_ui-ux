@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./project.css";
 import image1 from './../assets/akshayakalpa.png';
 import image2 from './../assets/organic-tea.png';
+import image3 from './../assets/tinytale.png';
 import { FaBehance,FaChevronLeft,FaChevronRight } from "react-icons/fa6";
 import React from "react";
 
@@ -18,7 +19,7 @@ const projects = [
     title: 'Tiny Tale',
     description: 'A mock UI of storytelling app for kids',
     behanceLink: 'https://www.behance.net/embed/project/123456789?ilo0=1', // replace with actual link
-    image: 'https://via.placeholder.com/400x300', // replace with actual image
+    image: image3, // replace with actual image
   },
   {
     title: 'Organic tea shop landing page',
